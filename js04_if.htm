@@ -1,0 +1,25 @@
+<DOCTYPE html>
+<html>
+<head>
+	<title>js04_if.htm-if</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta charset="utf-8">
+</head>
+<body>
+<script language ='javascript'>
+/*objetivo: ler dois valores,indepedenmente da ordem em que foram digitados, e apresenta-los em ordem crescente sera necessario efetua a troca de valores por isso recomendamos uma terceira variavel*/
+var js_n1;
+var js_n2;
+var js_n3;
+js_n1= parseInt(window.promt('informe o valor do primeiro numero:','00'));
+js_n2=parseInt(window.promt('informe o valor do segundo numero' , '00'));
+document.write('numero 1 digitado = ' + js_n1);
+document.write('<br>numero 2 digitdo = ' + js_n2);
+if (js_n1>js_n2){
+js_n3 = js_n1;
+js_n1 = js_n2;
+js_n2 = js_n3;
+}
+</script>
+</body>
+</html>
